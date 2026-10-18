@@ -27,7 +27,7 @@ function SocialLinks() {
     {
       name: "GitHub",
       icon: <FaGithub />,
-      url: "https://github.com/haymikyaw",
+      url: "https://github.com/haymikyaw8-prog",
     },
     {
       name: "Phone",
