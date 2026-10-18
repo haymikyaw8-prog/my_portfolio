@@ -1,0 +1,113 @@
+
+.project-gallery {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+  background: #fff0f5;
+  border-radius: 16px 16px 0 0;
+}
+
+.project-gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  color: #a33e70;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.gallery-prev {
+  left: 10px;
+}
+
+.gallery-next {
+  right: 10px;
+}
+
+.gallery-counter {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #8c3763;
+  font-size: 12px;
+}
+
+.project-card-content {
+  padding: 18px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.gallery-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.gallery-dot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: #f1bfd5;
+  cursor: pointer;
+}
+
+.gallery-dot.active {
+  background: #d94f91;
+  transform: scale(1.25);
+}
+
+.project-documents {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #f3c5dc;
+}
+
+.project-documents h4 {
+  color: #a83270;
+  margin-bottom: 12px;
+}
+
+.document-download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 12px 14px;
+  border: 1px solid #f1c4dc;
+  border-radius: 12px;
+  color: #9d2868;
+  background: #fff7fb;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.document-download:hover {
+  background: #fce7f3;
+  transform: translateY(-2px);
+}
+
