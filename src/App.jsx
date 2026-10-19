@@ -8,6 +8,7 @@ import SocialLinks from "./SocialLinks"
 import ProjectGallery from "./ProjectGallery"
 import Footer from "./Component/Footer";
 import Reveal from "./Component/Reveal";
+
 const skillCategories = [
   {
     title: "Programming & Development",
@@ -301,7 +302,7 @@ function App() {
   
   <div className="home-buttons">
     <a
-      href="/Hay-Mi-Kyaw-CV.pdf"
+      href="/CV Form-1.pdf"
       download="CV Form.pdf"
       className="home-btn download-btn"
     >
@@ -309,7 +310,7 @@ function App() {
       
 <div className="social-links">
   <a
-    href="https://www.facebook.com/Hay Mi Kyaw"
+    href="https://www.facebook.com/hay.mi.kyaw.261302"
     target="_blank"
     rel="noreferrer"
   >
@@ -357,6 +358,12 @@ function App() {
           <p>
             I'm a final-year Computer Science studentwho enjoys exploring technology and creating digital solutions. I like learning how websites and software work, experimenting with new ideas, and improving my technical skills through hands-on practice.
           </p>
+          <div className="about-languages">
+    <h3>🌸 Languages</h3>
+    <p>🇲🇲 Myanmar — Native</p>
+    <p>🇬🇧 English — Intermediate</p>
+    <p>🇯🇵 Japanese — Basic</p>
+  </div>
         </div>
 
         <div className="about-card">
@@ -491,6 +498,7 @@ function App() {
       </section>
      <div className="contact-layout">
   <div className="contact-form-side">
+ 
     <Contact />
   </div>
 
